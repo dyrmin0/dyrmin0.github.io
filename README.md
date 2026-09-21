@@ -1,3 +1,2 @@
-# Moje potężne portfolio
+# Portfolio
 
-Mam potężnego
