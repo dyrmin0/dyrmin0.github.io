@@ -125,6 +125,7 @@ img {
 .div5{
   grid-area:3/1/4/4;
   border-radius:0 10px 10px 10px;
+  display: flex;
   
 }
 
@@ -145,5 +146,5 @@ img {
 .program{
   border-radius: 20px;
   padding: 5px;
-  margin: 5px 2px 5px 2px;
+  margin: 5px 5px 5px 5px;
 }
