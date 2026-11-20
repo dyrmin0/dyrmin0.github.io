@@ -1,8 +1,12 @@
 body {
-  background: url("car-bounce.gif");
+  background: url(car-bounce.gif);
   background-size: 100% 100%;
 }
-
+.h2Kolor {
+  background: -webkit-linear-gradient(#cc1c1c, #b5fc10);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 h2{
     margin: 0;
     height: 34px;
@@ -45,6 +49,7 @@ img {
 
 .itemSocial{
     width: 25%;
+  
 }
 /* SEKCJA KARTY */
 
@@ -143,11 +148,6 @@ img {
   padding: 8px 20px 20px 8px;
 }
 
-.program{
-  border-radius: 20px;
-  padding: 5px;
-  margin: 5px 5px 5px 5px;
-}
 
 input[type="range"] {
   margin: 0;
@@ -162,4 +162,14 @@ input[type="range"] {
 
 .naglowek{
   justify-self: center;
+}
+
+button{
+  background-image: linear-gradient(90deg, rgb(175, 76, 76) 0%, rgb(53, 159, 47) 100%);
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 5px;
+  color: rgb(240, 236, 227);
 }
